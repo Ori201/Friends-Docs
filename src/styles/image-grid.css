@@ -1,0 +1,23 @@
+.image-row {
+  display: flex;
+  flex-wrap: wrap;           /* תמונות שזורות לשורות אם אין מקום */
+  justify-content: center;   /* מרכז כל השורה באמצע */
+  gap: 15px 15px;            /* רווח בין שורות ובעמודות */
+}
+
+.image-row figure {
+  text-align: center;
+  margin: 0;
+}
+
+.image-row figure img {
+  width: 350px;              /* אפשר לשנות רוחב */
+  height: auto;
+  border-radius: 10px;
+}
+
+.image-row figure figcaption {
+  font-style: italic;
+  color: gray;
+  margin-top: 0.5rem;
+}

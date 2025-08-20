@@ -7,10 +7,27 @@ import tailwindcss from '@tailwindcss/vite';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'Docs with Tailwind',
-			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
+			
+			title: 'שרת החברים',
+			favicon: '../../public/favicon.png',
+			lastUpdated: true,
+
+			locales: {
+				root: {
+					label: 'עברית',
+					lang: 'he',
+					dir: 'rtl',
+				}
+			},
+
+			customCss: [
+				'./src/styles/global.css',
+				'./src/styles/colors.css',
+				'./src/styles/image-grid.css',
+			],
+
 			sidebar: [
-				{
+				/*{
 					label: 'Guides',
 					items: [
 						// Each item here is one entry in the navigation menu.
@@ -20,9 +37,8 @@ export default defineConfig({
 				{
 					label: 'Reference',
 					autogenerate: { directory: 'reference' },
-				},
+				},*/
 			],
-			customCss: ['./src/styles/global.css'],
 		}),
 	],
 	vite: {
