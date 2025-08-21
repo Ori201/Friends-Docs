@@ -1,4 +1,5 @@
 # Friends Docs
+I don't know why I did it!
 
 ## 🧞 Commands
 
