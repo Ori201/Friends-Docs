@@ -143,4 +143,9 @@ banner:
     <img src="/fr-images/image_25.png"/>
     <!--figcaption>כיתוב 2</figcaption-->
   </figure>
+
+  <figure>
+    <img src="/fr-images/image_26.png"/>
+    <figcaption>תאריך: 22.10.2021</figcaption>
+  </figure>
 </div>
