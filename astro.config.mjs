@@ -10,8 +10,7 @@ export default defineConfig({
 		starlight({
 			
 			title: 'שרת החברים',
-			favicon: '../../public/favicon.png',
-			lastUpdated: true,
+			favicon: '/favicon.png',
 
 			locales: {
 				root: {
