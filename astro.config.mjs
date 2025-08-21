@@ -20,6 +20,10 @@ export default defineConfig({
 				}
 			},
 
+			social: [
+				{ icon: 'github', label: 'GitHub', href: 'https://github.com/Ori201/Friends-Docs' },
+			],
+
 			customCss: [
 				'./src/styles/global.css',
 				'./src/styles/colors.css',

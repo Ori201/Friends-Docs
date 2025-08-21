@@ -1,0 +1,18 @@
+---
+// src/components/Gallery.astro
+interface ImageItem {
+  src: string;
+  caption?: string;
+}
+
+const { images } = Astro.props;
+---
+
+<div class="image-row">
+  {images.map((img: ImageItem) => (
+    <figure>
+      <img src={img.src} alt={img.caption} />
+      {img.caption && <figcaption>{img.caption}</figcaption>}
+    </figure>
+  ))}
+</div>
