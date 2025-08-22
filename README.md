@@ -1,8 +1,6 @@
 # Friends Docs
 I don't know why I did it!
 
-אני לא יודע למה עשיתי את זה!
-
 ## 🧞 פקודות
 
 All commands are run from the root of the project, from a terminal:
